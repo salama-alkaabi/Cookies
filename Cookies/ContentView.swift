@@ -38,7 +38,7 @@ struct ContentView: View {
                 .padding()
                 .buttonStyle(.borderedProminent)
                 .cornerRadius(10)
-                .shadow(color: .white, radius: 5, x: 0.0, y: 0.0)
+                .shadow(color: .black, radius: 5, x: 0.0, y: 0.0)
                 
                 Text(message)
                     .padding()
